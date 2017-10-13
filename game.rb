@@ -5,7 +5,7 @@ class Game
   attr_reader :guessed_letters
 
   def initialize(word)
-    @word = Word.new(word)
+    @word = word
     @guessed_letters = []
   end
 

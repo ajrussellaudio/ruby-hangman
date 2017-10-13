@@ -6,7 +6,8 @@ require_relative("../game")
 class GameTest < MiniTest::Test
 
   def setup
-    @game = Game.new("test")
+    word = Word.new("test")
+    @game = Game.new(word)
   end
 
   def test_guessed_letters_starts_empty
