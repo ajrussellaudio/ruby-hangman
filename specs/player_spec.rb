@@ -13,4 +13,8 @@ class PlayerTest < MiniTest::Test
     assert_equal("Alan", @player.name)
   end
 
+  def test_lives_start_at_6
+    assert_equal(6, @player.lives)
+  end
+
 end
