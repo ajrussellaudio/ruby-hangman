@@ -2,6 +2,7 @@ require("minitest/autorun")
 require("minitest/rg")
 
 require_relative("../game")
+require_relative("../word")
 
 class GameTest < MiniTest::Test
 
